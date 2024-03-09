@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.svg" alt="logo" />
+        <div>
+          <div>
+            <select class="form-select" id="select-font">
+              <option id="s-serif" value='"Inter", sans-serif'>
+                Sans Serif
+              </option>
+              <option id="serif" value='"Lora", serif'>Serif</option>
+              <option id="mono" value='"Inconsolata", monospace'>Mono</option>
+            </select>
+          </div>
+          <line></line>
+          <div class="toggle tog">
+            <div class="circle"></div>
+          </div>
+          <img src="./img/moon.svg" alt="moon" class="mn tog" />
+          <img src="./img/moon_click.svg" alt="moon" class="mn-cl tog" />
+        </div>
+      </header>
+      <form class="search-section">
+        <input type="text" placeholder="Search for any word…" />
+        <img src="./img/search.svg" alt="search" />
+      </form>
+      <main class="main"></main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
